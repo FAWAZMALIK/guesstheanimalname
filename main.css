@@ -1,0 +1,119 @@
+button {
+    
+    background-color: rgb(14, 226, 22);
+    /* Green */
+    border: none;
+    color: white;
+    padding: 5px 65px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+img {
+	display:none;
+	
+}
+.sdf{
+	justify-items: center;
+	text-align: center;
+	max-width: 1500px;
+	margin-top: 100px;
+}
+body{
+	background: url(abstract-5035778_960_720.jpg.png) repeat;
+	color:white;
+	
+	
+	
+}
+.hide{
+	display: none;
+}
+.clr{
+	clear: both;
+}
+.note{
+	display: none;
+}
+.mm{
+	justify-items: center;
+	text-align: center;
+	max-width: 1500px;
+}
+input{
+	padding: 5px 35px;
+}
+.BB{
+	padding: 20px;
+	justify-items: center;
+	text-align: center;
+	max-width: 1500px;
+}
+.ww{
+	justify-items: center;
+	text-align: center;
+	max-width: 1500px;
+	font-size: 55px;
+	margin-top: 40px;
+}
+.were{
+	justify-items: center;
+	text-align: center;
+	max-width: 1500px;
+	font-size: 55px;
+	padding: 40px;
+}
+.main{
+	margin: 50px 15px 0 15px;
+	justify-items: center;
+	text-align: center;
+	max-width: 1500px;
+	font-size: 35px;
+	height: 50px;
+	display: block;
+
+}
+.hyper{
+	font-size: 55px;
+	justify-items: center;
+	text-align: center;
+	max-width: 1500px;
+}
+.lol {
+    color: #4CAF50;
+
+}
+
+.wer {
+    background: red !important;
+}
+
+.yes {
+    background: rgb(0, 255, 8) !important;
+}
+
+@media screen and (min-width: 750px){
+    .note{
+		display: block;
+		font-size: 25px;
+		max-width: 300px;
+		text-align: left;
+		background-color: rgb(116, 141, 167,0.8);
+
+	}
+	img{
+		display: inline;
+		height: 100px;
+		width: auto;
+	}
+	
+}
+@media screen and (min-width: 1000px){
+	.note{
+		max-width: 400px;
+		font-style: inherit;
+		background-color: rgba(12, 231, 41, 0.8);
+		
+	}
+}
